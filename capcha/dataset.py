@@ -3,8 +3,8 @@ from PIL import Image
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
-import common
-import one_hot
+import capcha.common as common
+import capcha.one_hot as one_hot
 
 class CaptchaDataset(Dataset):
     def __init__(self, root_dir):

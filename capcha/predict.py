@@ -5,10 +5,10 @@ import random
 import matplotlib.pyplot as plt
 from PIL import Image
 
-import common
-from model import MyModel
-from dataset import CaptchaDataset
-import one_hot
+import capcha.common as common
+from capcha.model import MyModel
+from capcha.dataset import CaptchaDataset
+import capcha.one_hot as one_hot
 
 # --- Prediction Parameters ---
 test_dataset_path = './datasets/test'

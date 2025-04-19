@@ -1,5 +1,5 @@
 import torch
-import common
+import capcha.common as common
 
 char_to_idx = {char: idx for idx, char in enumerate(common.captcha_array)}
 idx_to_char = {idx: char for idx, char in enumerate(common.captcha_array)}
