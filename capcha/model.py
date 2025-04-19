@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import capcha.common as common
+import common
 
 class MyModel(nn.Module):
     def __init__(self):

@@ -2,7 +2,7 @@ import os
 import random
 import time
 from captcha.image import ImageCaptcha
-import capcha.common as common
+import common
 
 num_train_images = 50000
 num_test_images = 10000

@@ -1,0 +1,9 @@
+# requirements.txt
+
+torch==2.2.1
+torchvision==0.17.1
+captcha==0.5.0
+tqdm==4.66.2
+numpy>=1.20.0      # 虽然没在实践3-3明确指定，但数据投毒实践提到了1.24.3，且是torch常用依赖
+matplotlib>=3.5.0  # 用于 predict.py 中的可视化，数据投毒实践提到3.7.2
+Pillow>=9.0.0      # captcha库和torchvision处理图像需要Pillow(PIL)
