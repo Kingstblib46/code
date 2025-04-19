@@ -1,0 +1,26 @@
+Arguments: Namespace(poison_ratio=0.1, subset_ratio=0.1, epochs=10, lr=0.001, batch_size=128, seed=42, no_cuda=False, plot_examples=False, num_workers=2)
+Device: cuda
+
+Epoch: 1, Avg Loss: 1.5145, Duration: 0.60s
+Epoch: 1, Clean Test Accuracy: 91.00%, Eval Duration: 0.15s
+Epoch: 2, Avg Loss: 0.7732, Duration: 0.23s
+Epoch: 2, Clean Test Accuracy: 95.80%, Eval Duration: 0.13s
+Epoch: 3, Avg Loss: 0.6943, Duration: 0.27s
+Epoch: 3, Clean Test Accuracy: 96.50%, Eval Duration: 0.19s
+Epoch: 4, Avg Loss: 0.6534, Duration: 0.24s
+Epoch: 4, Clean Test Accuracy: 96.30%, Eval Duration: 0.13s
+Epoch: 5, Avg Loss: 0.6121, Duration: 0.26s
+Epoch: 5, Clean Test Accuracy: 96.80%, Eval Duration: 0.11s
+Epoch: 6, Avg Loss: 0.5991, Duration: 0.23s
+Epoch: 6, Clean Test Accuracy: 96.90%, Eval Duration: 0.11s
+Epoch: 7, Avg Loss: 0.5850, Duration: 0.26s
+Epoch: 7, Clean Test Accuracy: 96.90%, Eval Duration: 0.19s
+Epoch: 8, Avg Loss: 0.5497, Duration: 0.27s
+Epoch: 8, Clean Test Accuracy: 97.90%, Eval Duration: 0.15s
+Epoch: 9, Avg Loss: 0.5294, Duration: 0.26s
+Epoch: 9, Clean Test Accuracy: 98.10%, Eval Duration: 0.12s
+Epoch: 10, Avg Loss: 0.5150, Duration: 0.23s
+Epoch: 10, Clean Test Accuracy: 97.00%, Eval Duration: 0.12s
+
+Training finished. Total time: 4.28 seconds
+Final Clean Test Accuracy: 97.00%
